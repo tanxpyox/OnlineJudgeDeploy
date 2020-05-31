@@ -2,4 +2,5 @@ service:
   docker
 
 script:
-  - docker-compose up -d
+  - docker-compose --version
+  - docker-compose up -d --verbose
