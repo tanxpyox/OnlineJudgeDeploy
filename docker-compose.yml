@@ -20,7 +20,7 @@ services:
       - POSTGRES_PASSWORD=onlinejudge
 
   judge-server:
-    image: qudoj/judge_server
+    image: qduoj/judge_server
     container_name: judge-server
     restart: always
     read_only: true
