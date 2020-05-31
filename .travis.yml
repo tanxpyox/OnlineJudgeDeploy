@@ -1,8 +1,0 @@
-service:
-  docker
-
-script:
-  - ping http://aliyuncs.com/
-  - ping aliyuncs.com
-  - docker-compose --version
-  - docker-compose up -d
