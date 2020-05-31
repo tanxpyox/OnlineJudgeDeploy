@@ -3,4 +3,4 @@ service:
 
 script:
   - docker-compose --version
-  - docker-compose up -d --verbose
+  - docker-compose up -d
