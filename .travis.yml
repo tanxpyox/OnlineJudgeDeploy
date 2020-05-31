@@ -1,0 +1,5 @@
+service:
+  docker
+
+script:
+  - docker-compose up -d
